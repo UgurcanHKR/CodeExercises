@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CodeExercises\\ml_predict\\Ml_pred_ConsoleApp1\\Ml_pred_ConsoleApp1.csproj": {}
+  },
+  "projects": {
+    "D:\\CodeExercises\\ml_predict\\Ml_pred_ConsoleApp1\\Ml_pred_ConsoleApp1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodeExercises\\ml_predict\\Ml_pred_ConsoleApp1\\Ml_pred_ConsoleApp1.csproj",
+        "projectName": "Ml_pred_ConsoleApp1",
+        "projectPath": "D:\\CodeExercises\\ml_predict\\Ml_pred_ConsoleApp1\\Ml_pred_ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\Ugur\\.nuget\\packages\\",
+        "outputPath": "D:\\CodeExercises\\ml_predict\\Ml_pred_ConsoleApp1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ugur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5",
+          "dependencies": {
+            "Microsoft.ML.TimeSeries": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
