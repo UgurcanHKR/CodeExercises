@@ -6,16 +6,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.ML.TimeSeries" Version="1.7.1" />
   </ItemGroup>
-  <ItemGroup Label="ml_pred">
-    <None Include="ml_pred.consumption.cs">
-      <DependentUpon>ml_pred.mbconfig</DependentUpon>
-    </None>
-    <None Include="ml_pred.training.cs">
-      <DependentUpon>ml_pred.mbconfig</DependentUpon>
-    </None>
-    <None Include="ml_pred.zip">
-      <DependentUpon>ml_pred.mbconfig</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+  <ItemGroup>
+    <Folder Include="MLmodels\" />
   </ItemGroup>
 </Project>
