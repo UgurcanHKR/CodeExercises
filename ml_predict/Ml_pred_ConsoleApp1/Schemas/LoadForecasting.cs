@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ml_pred_ConsoleApp1.Schemas
 {
-    internal class LoadConsumptionForecasting
+    internal class LoadForecasting
     {
         [ColumnName("Score")]
         public float DAYF { get; set; }

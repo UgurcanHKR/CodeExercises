@@ -108,7 +108,7 @@ namespace Ml_pred_ConsoleApp1
             ITransformer trainedModel = mlContext.Model.Load(ModelPath, out var modelInputSchema);
 
             // Create prediction engine related to the loaded trained model
-            var predEngine = mlContext.Model.CreatePredictionEngine<LoadParameters, LoadConsumptionForecasting>(trainedModel);
+            var predEngine = mlContext.Model.CreatePredictionEngine<LoadParameters, LoadForecasting>(trainedModel);
 
             //Score
             var resultprediction = predEngine.Predict(LoadSample);
